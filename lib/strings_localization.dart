@@ -19,7 +19,7 @@ class StringsLocalizationsDelegate extends LocalizationsDelegate<StringsLocaliza
   const StringsLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => ['en', 'fr', 'fr_'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => ['en', 'fr'].contains(locale.languageCode);
 
   @override
   Future<StringsLocalizations> load(Locale locale) async {

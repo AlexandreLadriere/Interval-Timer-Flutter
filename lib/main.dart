@@ -16,7 +16,6 @@ class IntervalTimer extends StatelessWidget {
       localizationsDelegates: [const StringsLocalizationsDelegate()],
       supportedLocales: [
         const Locale('en', 'US'),
-        const Locale('fr_', 'FR'),
         const Locale('fr', 'FR')
       ],
       theme: ThemeData(
