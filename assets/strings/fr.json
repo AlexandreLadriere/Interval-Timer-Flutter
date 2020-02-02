@@ -1,3 +1,6 @@
 {
-  "sets": "Séries"
+  "sets": "Séries",
+  "work_interval": "Durée de l'exercice",
+  "rest_interval": "Durée de récupération",
+  "start": "DEPART"
 }

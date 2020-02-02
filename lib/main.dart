@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:interval_timer/custom_colors.dart';
 import 'package:interval_timer/strings_localization.dart';
 import 'home.dart';
 
@@ -23,6 +24,13 @@ class IntervalTimer extends StatelessWidget {
           title: TextStyle(
             fontSize: 22.0,
             color: Colors.black,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'Montserrat',
+          ),
+          subtitle: TextStyle(
+            fontSize: 18.0,
+            color: CustomColors.grey,
+            fontFamily: 'Montserrat',
           )
         )
       ),

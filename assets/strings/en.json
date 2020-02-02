@@ -1,3 +1,6 @@
 {
-  "sets": "Sets"
+  "sets": "Sets",
+  "work_interval": "Work Interval",
+  "rest_interval": "Rest Interval",
+  "start": "START"
 }
